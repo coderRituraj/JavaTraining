@@ -3,7 +3,7 @@ package com.bhavna.training;
 public class Main {
 	public static void main(String[] args) {
 		
-		ZipService2 zipObj=new ZipService2();
+		ZipServiceImp zipObj=new ZipServiceImp();
 		zipObj.setAddress(new ZipCode("India", "Punjab", "Dera Bassi",140507));
 		zipObj.setAddress(new ZipCode("India", "Haryanan", "Ambala",133003));
 		zipObj.setAddress(new ZipCode("India", "Amritsar", "Punjab",143001));

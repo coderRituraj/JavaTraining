@@ -1,6 +1,6 @@
 package com.bhavna.training;
 
-public class ZipService2 implements ZipService1 {
+public class ZipServiceImp implements ZipService {
 
 	public void setAddress(ZipCode zipObj) {
 		address.add(zipObj);

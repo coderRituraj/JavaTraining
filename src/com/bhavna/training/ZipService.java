@@ -2,7 +2,7 @@ package com.bhavna.training;
 
 import java.util.ArrayList;
 
-public interface ZipService1 {
+public interface ZipService {
 static ArrayList<ZipCode> address=new ArrayList<ZipCode>();
 	
 	public abstract void setAddress(ZipCode zipObj);
